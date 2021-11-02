@@ -1,0 +1,21 @@
+{
+  "name": "blink-fs-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-ws": "^4.0.1",
+    "typescript": "^4.4.4",
+    "vscode-uri": "^3.0.2",
+    "ws": "^8.2.3"
+  },
+  "scripts": {
+    "test": "yarn mocha --ui tdd ."
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.4",
+    "assert": "^2.0.0",
+    "mocha": "^9.1.3"
+  }
+}
